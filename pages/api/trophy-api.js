@@ -1,5 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 const fs = require('fs');
+const path = require('path');
 
 export default function handler(req, res) {
   saveData(req.body)
@@ -7,5 +8,6 @@ export default function handler(req, res) {
 }
 
 function saveData(data) {
-  fs.writeFileSync('/data/reward.content.json', JSON.stringify(data, null, 4));
+
+  fs.writeFileSync(path.join(process.cwd(), '/data/reward.content.json'), JSON.stringify(data, null, 4));
 }

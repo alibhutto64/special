@@ -1,5 +1,5 @@
 {
-    "Count": 21,
+    "Count": 23,
     "TakenToday": true,
     "MileStones": [
         {
@@ -14,7 +14,7 @@
         },
         {
             "title": "Code Implementation: Dynamic Data offloading",
-            "finished": false,
+            "finished": true,
             "reward": 2
         }
     ],
