@@ -7,5 +7,5 @@ export default function handler(req, res) {
 }
 
 function saveData(data) {
-  fs.writeFileSync('./data/reward.content.json', JSON.stringify(data, null, 4));
+  fs.writeFileSync('/data/reward.content.json', JSON.stringify(data, null, 4));
 }
