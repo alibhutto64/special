@@ -1,8 +1,9 @@
+import data from "/reward.content.json"
 export default function Home() {
 
   return (
     <div>
-      Hello
+      {data.Count}
     </div>
   )
 }

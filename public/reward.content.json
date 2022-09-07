@@ -1,0 +1,77 @@
+{
+    "Count": 19,
+    "TakenToday": true,
+    "MileStones": [
+        {
+            "title": "Paper: Dynamic Data offloading",
+            "finished": true,
+            "reward": 2
+        },
+        {
+            "title": "Code: Dynamic Data offloading",
+            "finished": false,
+            "reward": 2
+        },
+        {
+            "title": "Code Implementation: Dynamic Data offloading",
+            "finished": false,
+            "reward": 2
+        }
+    ],
+    "Rewards": [
+        [
+            "Song",
+            2
+        ],
+        [
+            "Snack",
+            5
+        ],
+        [
+            "Movie",
+            5
+        ],
+        [
+            "PushUps",
+            7
+        ],
+        [
+            "Chocolate",
+            10
+        ],
+        [
+            "Tikkey",
+            25
+        ],
+        [
+            "Dinner",
+            50
+        ],
+        [
+            "Tour",
+            100
+        ],
+        [
+            "Wuhan Visit",
+            125
+        ]
+    ],
+    "RedeemHistory": [
+        {
+            "date": 1661228673978,
+            "item": 1,
+            "points": 10
+        },
+        {
+            "date": 1661228700785,
+            "item": 0,
+            "points": 5
+        },
+        {
+            "date": 1661228815219,
+            "item": 0,
+            "points": 3
+        }
+    ],
+    "Date": "Mon Sep 05 2022"
+}
