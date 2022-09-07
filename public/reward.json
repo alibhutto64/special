@@ -1,6 +1,6 @@
 {
-    "Count": 19,
-    "TakenToday": true,
+    "Count": 21,
+    "TakenToday": false,
     "MileStones": [
         {
             "title": "Paper: Dynamic Data offloading",
@@ -9,7 +9,7 @@
         },
         {
             "title": "Code: Dynamic Data offloading",
-            "finished": false,
+            "finished": true,
             "reward": 2
         },
         {
@@ -73,5 +73,5 @@
             "points": 3
         }
     ],
-    "Date": "Mon Sep 05 2022"
+    "Date": "Wed Sep 07 2022"
 }

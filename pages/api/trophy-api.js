@@ -8,6 +8,7 @@ export default function handler(req, res) {
 }
 
 function saveData(data) {
-  const dataPath = path.join(process.cwd(), 'data');
-  fs.writeFileSync(dataPath + "/reward.content.json", JSON.stringify(data, null, 4));
+  const dataPath = path.join(process.cwd(), 'public');
+  // fs.writeFileSync(dataPath + "/reward.content.json", JSON.stringify(data, null, 4));
+  fs.writeFileSync(dataPath + "/reward.json", JSON.stringify(data, null, 4));
 }

@@ -2,7 +2,8 @@ import { useEffect, useRef } from "react"
 import { useState } from "react"
 import MileStones from "../components/MileStones"
 import Redeem from "../components/Redeem"
-import data from '../data/reward.content'
+// import data from '../data/reward.content'
+import data from '/public/reward'
 
 async function DataUpdate(c) {
   console.log(c)
