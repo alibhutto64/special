@@ -1,4 +1,4 @@
-import data from "/reward.content.json"
+import data from "/public/reward.json"
 export default function Home() {
 
   return (
